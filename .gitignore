@@ -1,0 +1,68 @@
+# Игнорируем скомпилированные объектные файлы
+*.o
+*.a
+*.so
+*.d
+
+# Игнорируем исполнимые файлы
+image_tool
+*.out
+*.exe
+*.app
+*.bin
+
+# Игнорируем каталоги сборки
+build/
+bin/
+obj/
+out/
+
+# Игнорируем временные файлы редакторов
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+*.orig
+
+# Игнорируем файлы IDE (например, для Visual Studio, Eclipse, Xcode и др.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+*.project
+*.classpath
+*.cproject
+
+# Игнорируем конфигурационные файлы системы
+.DS_Store  # Для macOS
+Thumbs.db  # Для Windows
+
+# Игнорируем файлы автогенерации или пакетные файлы
+Makefile.in
+cmake-build-*
+
+# Игнорируем файлы для CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+*.cmake
+
+# Игнорируем временные файлы, созданные сборщиками (например, для Autotools или других)
+*.log
+*.pc
+*.dep
+*.dSYM/
+
+# Игнорируем файлы с расширением, используемым для генерации документации или отчётов
+*.pdf
+*.docx
+*.html
+
+# Игнорируем другие специфические файлы
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
